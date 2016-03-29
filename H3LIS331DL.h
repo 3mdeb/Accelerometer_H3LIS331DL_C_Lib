@@ -2,11 +2,21 @@
  * H3LIS331DL.h
  * A library for 3-Axis Digital Accelerometer(H3LIS331DL_t* device, ±400g)
  *  
- * Copyright (H3LIS331DL_t* device, c) 2014 seeed technology inc.
+ * Original work Copyright (H3LIS331DL_t* device, c) 2014 seeed technology inc.
  * Website    : www.seeed.cc
  * Author     : lawliet zou
  * Create Time: April 2014
  * Change Log :
+ *
+ * Modified work Copyright 2016 Andrzej Pawlowicz at 3mdeb - Embedded Systems Consulting
+ * Website    : 3mdeb.com
+ * Author     : Andrzej Pawlowicz (andrzej.pawlowicz1@gmail.com)
+ * Create Time: March 2016
+ * Change Log : 
+ *		1) Port from C++ to C
+ *		2) Adding missing funcitons for reading configuration registers
+ *		3) Adding support for single axis reads
+ *		4) Optimization of accelerations data reading by utilization of i2c multi byte reads
  *
  * The MIT License (H3LIS331DL_t* device, MIT)
  *
